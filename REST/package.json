@@ -1,0 +1,31 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "REST Api with login functionality, controllers, Route protection.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "REST",
+    "JWT",
+    "Login",
+    "Node",
+    "Express",
+    "Mongo"
+  ],
+  "author": "Aditya Bapat",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
